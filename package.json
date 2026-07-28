@@ -1,0 +1,22 @@
+{
+  "name": "bingo-pro-apk",
+  "version": "1.0.0",
+  "description": "Bingo PRO - APK generado con Capacitor",
+  "main": "index.js",
+  "scripts": {
+    "sync": "cap sync",
+    "build": "cap build android",
+    "open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/app": "^6.0.0",
+    "@capacitor/camera": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/haptics": "^6.0.0",
+    "@capacitor/splash-screen": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  }
+}
